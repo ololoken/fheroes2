@@ -1,6 +1,6 @@
 /***************************************************************************
  *   fheroes2: https://github.com/ihhub/fheroes2                           *
- *   Copyright (C) 2024                                                    *
+ *   Copyright (C) 2024 - 2025                                             *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -42,7 +42,6 @@
 #include "mp2.h"
 #include "resource.h"
 #include "screen.h"
-#include "settings.h"
 #include "tools.h"
 #include "translations.h"
 #include "ui_button.h"
@@ -80,7 +79,6 @@ namespace Editor
         const CursorRestorer cursorRestorer( true, Cursor::POINTER );
 
         fheroes2::Display & display = fheroes2::Display::instance();
-        const bool isEvilInterface = Settings::Get().isEvilInterfaceEnabled();
 
         fheroes2::StandardWindow background( fheroes2::Display::DEFAULT_WIDTH - fheroes2::borderWidthPx * 2, messageArea.height + 220, true, display );
         const fheroes2::Rect dialogRoi = background.activeArea();
@@ -102,7 +100,7 @@ namespace Editor
         text.draw( messageRoi.x + ( messageRoi.width - text.width() ) / 2, offsetY, display );
 
         text.set( eventMetadata.message, fheroes2::FontType::normalWhite(), language );
-        text.draw( messageRoi.x + 5, messageRoi.y + 5, messageRoi.width - 10, display );
+        text.drawInRoi( messageRoi.x + 5, messageRoi.y + 5, messageRoi.width - 10, display, messageRoi );
 
         // Resources
         text.set( _( "Reward:" ), fheroes2::FontType::normalWhite() );
@@ -208,7 +206,7 @@ namespace Editor
         fheroes2::Button buttonOk;
         fheroes2::Button buttonCancel;
 
-        background.renderOkayCancelButtons( buttonOk, buttonCancel, isEvilInterface );
+        background.renderOkayCancelButtons( buttonOk, buttonCancel );
 
         display.render( background.totalArea() );
 
@@ -314,7 +312,12 @@ namespace Editor
 
                     int32_t temp = *resourcePtr;
 
-                    if ( Dialog::SelectCount( Resource::String( resourceType ), -99999, 999999, temp, 1 ) ) {
+                    const fheroes2::ResourceDialogElement resourceUI( resourceType, {} );
+
+                    std::string message = _( "Set %{resource-type} Count" );
+                    StringReplace( message, "%{resource-type}", Resource::String( resourceType ) );
+
+                    if ( Dialog::SelectCount( std::move( message ), -99999, 999999, temp, 1, &resourceUI ) ) {
                         *resourcePtr = temp;
                     }
 
@@ -335,7 +338,7 @@ namespace Editor
 
                     messageRoiRestorer.restore();
                     text.set( eventMetadata.message, fheroes2::FontType::normalWhite(), language );
-                    text.draw( messageRoi.x + 5, messageRoi.y + 5, messageRoi.width - 10, display );
+                    text.drawInRoi( messageRoi.x + 5, messageRoi.y + 5, messageRoi.width - 10, display, messageRoi );
                     isRedrawNeeded = true;
                 }
             }

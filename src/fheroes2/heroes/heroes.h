@@ -1,6 +1,6 @@
 /***************************************************************************
  *   fheroes2: https://github.com/ihhub/fheroes2                           *
- *   Copyright (C) 2019 - 2024                                             *
+ *   Copyright (C) 2019 - 2025                                             *
  *                                                                         *
  *   Free Heroes2 Engine: http://sourceforge.net/projects/fheroes2         *
  *   Copyright (C) 2009 by Andrey Afletdinov <fheroes2@gmail.com>          *
@@ -486,7 +486,6 @@ public:
 
     void ActionNewDay();
     void ActionNewWeek();
-    void ActionNewMonth();
     void ActionAfterBattle() override;
     void ActionPreBattle() override;
 
@@ -687,6 +686,8 @@ public:
     static int GetLevelFromExperience( uint32_t exp );
     static uint32_t GetExperienceFromLevel( int lvl );
 
+    static uint32_t getExperienceMaxValue();
+
     static const fheroes2::Sprite & GetPortrait( int heroid, int type );
     static const char * GetName( int heroid );
 
@@ -813,7 +814,6 @@ public:
 
     void NewDay() const;
     void NewWeek() const;
-    void NewMonth() const;
 
     Heroes * GetHeroForHire( const int race, const int heroIDToIgnore ) const;
     Heroes * FromJail( int32_t index ) const;

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 12:11+0000\n"
+"POT-Creation-Date: 2025-02-22 01:59+0000\n"
 "PO-Revision-Date: 2024-07-20 23:19+0200\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: https://discord.com/"
@@ -22,63 +22,40 @@ msgstr ""
 "X-Launchpad-Export-Date: 2013-10-09 02:01+0000\n"
 "X-Generator: Poedit 3.4.4\n"
 
-msgid ""
-"BATTLE\n"
-"ONLY"
-msgstr ""
-"TYLKO\n"
-"WALKA"
+msgid "SELECT"
+msgstr "WYBIERZ"
 
-msgid ""
-"NEW\n"
-"GAME"
-msgstr ""
-"NOWA\n"
-"GRA"
+msgid "S"
+msgstr "M"
 
-msgid ""
-"SAVE\n"
-"GAME"
-msgstr ""
-"ZAPISZ\n"
-"GRĘ"
+msgid "M"
+msgstr "Ś"
 
-msgid ""
-"LOAD\n"
-"GAME"
-msgstr ""
-"WCZYTAJ\n"
-"GRĘ"
+msgid "L"
+msgstr "D"
 
-msgid "INFO"
-msgstr "INFO"
+msgid "X-L"
+msgstr "BD"
 
-msgid "QUIT"
+msgid "ALL"
+msgstr "M-BD"
+
+msgid "EXIT"
 msgstr "WYJŚCIE"
 
 #, fuzzy
-msgid ""
-"NEW\n"
-"MAP"
-msgstr ""
-"NOWA\n"
-"GRA"
+msgid "smallerButton|EXIT"
+msgstr "OK"
 
-#, fuzzy
-msgid ""
-"SAVE\n"
-"MAP"
-msgstr ""
-"ZAPISZ\n"
-"GRĘ"
+msgid "HEROES"
+msgstr "BOHATEROWIE"
 
-#, fuzzy
 msgid ""
-"LOAD\n"
-"MAP"
+"TOWNS/\n"
+"CASTLES"
 msgstr ""
-"WCZYTAJ\n"
-"GRĘ"
+"MIASTA/\n"
+"ZAMKI"
 
 msgid "CANCEL"
 msgstr "ANULUJ"
@@ -104,49 +81,113 @@ msgstr "TAK"
 msgid "NO"
 msgstr "NIE"
 
-msgid "EXIT"
-msgstr "WYJŚCIE"
-
-#, fuzzy
-msgid "smallerButton|EXIT"
-msgstr "OK"
-
 msgid "DISMISS"
 msgstr "ZWOLNIJ"
 
 msgid "UPGRADE"
 msgstr "ULEPSZ"
 
+msgid "GIFT"
+msgstr "WYŚLIJ"
+
 msgid "RESTART"
 msgstr "OD NOWA"
 
-msgid "HEROES"
-msgstr "BOHATEROWIE"
+msgid "MAX"
+msgstr "MAKS"
+
+msgid "MIN"
+msgstr "MIN"
 
 msgid ""
-"TOWNS/\n"
-"CASTLES"
+"D\n"
+"I\n"
+"S\n"
+"M\n"
+"I\n"
+"S\n"
+"S"
 msgstr ""
-"MIASTA/\n"
-"ZAMKI"
 
-msgid "S"
-msgstr "M"
+msgid ""
+"E\n"
+"X\n"
+"I\n"
+"T"
+msgstr ""
 
-msgid "M"
-msgstr "Ś"
+msgid ""
+"C\n"
+"A\n"
+"M\n"
+"P\n"
+"A\n"
+"I\n"
+"G\n"
+"N"
+msgstr ""
 
-msgid "L"
-msgstr "D"
+msgid ""
+"S\n"
+"T\n"
+"A\n"
+"N\n"
+"D\n"
+"A\n"
+"R\n"
+"D"
+msgstr ""
 
-msgid "X-L"
-msgstr "BD"
+#, fuzzy
+msgid ""
+"LOAD\n"
+"MAP"
+msgstr ""
+"WCZYTAJ\n"
+"GRĘ"
 
-msgid "ALL"
-msgstr "M-BD"
+#, fuzzy
+msgid ""
+"NEW\n"
+"MAP"
+msgstr ""
+"NOWA\n"
+"GRA"
 
-msgid "SELECT"
-msgstr "WYBIERZ"
+#, fuzzy
+msgid ""
+"SAVE\n"
+"MAP"
+msgstr ""
+"ZAPISZ\n"
+"GRĘ"
+
+msgid ""
+"NEW\n"
+"GAME"
+msgstr ""
+"NOWA\n"
+"GRA"
+
+msgid ""
+"LOAD\n"
+"GAME"
+msgstr ""
+"WCZYTAJ\n"
+"GRĘ"
+
+msgid ""
+"SAVE\n"
+"GAME"
+msgstr ""
+"ZAPISZ\n"
+"GRĘ"
+
+msgid "QUIT"
+msgstr "WYJŚCIE"
+
+msgid "INFO"
+msgstr "INFO"
 
 msgid ""
 "STANDARD\n"
@@ -154,6 +195,13 @@ msgid ""
 msgstr ""
 "GRA\n"
 "STANDARDOWA"
+
+msgid ""
+"BATTLE\n"
+"ONLY"
+msgstr ""
+"TYLKO\n"
+"WALKA"
 
 msgid ""
 "CAMPAIGN\n"
@@ -206,20 +254,11 @@ msgstr "5 GRACZY"
 msgid "6 PLAYERS"
 msgstr "6 GRACZY"
 
-msgid "GIFT"
-msgstr "WYŚLIJ"
-
-msgid "MAX"
-msgstr "MAKS"
-
 msgid "DIFFICULTY"
 msgstr "TRUDNOŚĆ"
 
 msgid "VIEW INTRO"
 msgstr ""
-
-msgid "MIN"
-msgstr "MIN"
 
 msgid "RESET"
 msgstr ""
@@ -237,25 +276,14 @@ msgstr ""
 "MIASTA/\n"
 "ZAMKI"
 
-#, fuzzy
-msgid "RESTRICT"
-msgstr "OD NOWA"
-
 msgid ""
-"D\n"
-"I\n"
-"S\n"
-"M\n"
-"I\n"
-"S\n"
-"S"
+"AUTO\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
-"E\n"
-"X\n"
-"I\n"
-"T"
+"QUICK\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
@@ -265,47 +293,6 @@ msgid ""
 "R\n"
 "O\n"
 "L"
-msgstr ""
-
-msgid ""
-"C\n"
-"A\n"
-"M\n"
-"P\n"
-"A\n"
-"I\n"
-"G\n"
-"N"
-msgstr ""
-
-msgid ""
-"S\n"
-"T\n"
-"A\n"
-"N\n"
-"D\n"
-"A\n"
-"R\n"
-"D"
-msgstr ""
-
-msgid "RUMORS"
-msgstr ""
-
-msgid "EVENTS"
-msgstr ""
-
-msgid "LANGUAGE"
-msgstr ""
-
-msgid ""
-"AUTO\n"
-"COMBAT"
-msgstr ""
-
-msgid ""
-"QUICK\n"
-"COMBAT"
 msgstr ""
 
 msgid "Warrior"
@@ -3213,8 +3200,9 @@ msgstr "Wskaż najpierw odbiorców!"
 msgid "You cannot select %{resource}!"
 msgstr "Nie możesz wybrać %{resource}!"
 
-msgid "Select count %{resource}:"
-msgstr "Wybierz ilość %{resource}:"
+#, fuzzy
+msgid "Set %{resource-type} Count"
+msgstr "Strzelaj do %{monster}"
 
 msgid "Select Recipients"
 msgstr "Wybierz odbiorcę"
@@ -3279,15 +3267,6 @@ msgstr "Zdarzenie"
 msgid "Hot Keys:"
 msgstr "Skróty klawiszowe:"
 
-msgid "Evil"
-msgstr "Zły"
-
-msgid "Good"
-msgstr "Dobry"
-
-msgid "Interface Type"
-msgstr "Typ interfejsu"
-
 msgid "Hide"
 msgstr "Ukryj"
 
@@ -3297,26 +3276,17 @@ msgstr "Pokaż"
 msgid "Interface"
 msgstr "Interfejs"
 
-msgid "Slow"
-msgstr "Wolno"
-
-msgid "Normal"
-msgstr "Normalnie"
-
-msgid "Fast"
-msgstr "Szybko"
-
-msgid "Very Fast"
-msgstr "Bardzo szybko"
-
-msgid "Scroll Speed"
-msgstr "Prędkość przewijania"
+msgid "Interface Type"
+msgstr "Typ interfejsu"
 
 msgid "Toggle the type of interface you want to use."
 msgstr "Zmień typ interfejsu."
 
 msgid "Toggle interface visibility."
 msgstr "Zmień widoczność interfejsu."
+
+msgid "Scroll Speed"
+msgstr "Prędkość przewijania"
 
 msgid "Sets the speed at which you scroll the window."
 msgstr "Zmień prędkość przewijania okna."
@@ -4006,6 +3976,10 @@ msgid "Default Buildings"
 msgstr "domyślna akcja"
 
 #, fuzzy
+msgid "RESTRICT"
+msgstr "OD NOWA"
+
+#, fuzzy
 msgid "Default Army"
 msgstr "domyślna akcja"
 
@@ -4135,20 +4109,57 @@ msgstr ""
 msgid "Delete an existing event."
 msgstr "Wczytaj istniejącą mapę."
 
+#, fuzzy
+msgid "Effects:"
+msgstr "Efekty"
+
+#, fuzzy
+msgid "Conditions:"
+msgstr ""
+"Warunki\n"
+"przegranej"
+
 msgid "Cancel event after first visit"
 msgstr ""
+
+msgid "Computer colors allowed to get the event:"
+msgstr ""
+
+#, fuzzy
+msgid "Set Experience value"
+msgstr "Doświadczenie"
 
 msgid "Artifact"
 msgstr "Artefakt"
 
-msgid "No artifact will be given as a reward."
+msgid "No artifact will be given by the event."
 msgstr ""
 
 #, fuzzy
 msgid "Delete Artifact"
 msgstr "Wybierz artefakt:"
 
-msgid "Delete an artifact from the reward."
+#, fuzzy
+msgid "Delete an artifact from the event."
+msgstr "Wczytaj istniejącą mapę."
+
+msgid "No Secondary Skill will be given by the event."
+msgstr ""
+
+#, fuzzy
+msgid "Secondary Skill"
+msgstr "Wybierz umiejętność:"
+
+msgid "Delete Secondary Skill"
+msgstr ""
+
+msgid "Delete the Secondary Skill from the event."
+msgstr ""
+
+msgid "No resources will be part of this event."
+msgstr ""
+
+msgid "These resources will be a part of the event."
 msgstr ""
 
 msgid ""
@@ -4203,6 +4214,56 @@ msgid ""
 msgstr ""
 "Czy na pewno chcesz wczytać nową grę? (aktualna rozgrywka zostanie przerwana)"
 
+msgid ""
+"MAIN\n"
+"MENU"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"START\n"
+"MAP"
+msgstr "OD NOWA"
+
+msgid "Main Menu"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
+"current map will be lost.)"
+msgstr ""
+"Czy na pewno chcesz wczytać nową grę? (aktualna rozgrywka zostanie przerwana)"
+
+msgid "Unsaved Changes"
+msgstr ""
+
+msgid ""
+"This map has either terrain changes, undo history or has not yet been saved "
+"to a file.\n"
+"\n"
+"Do you wish to save the current map?"
+msgstr ""
+
+msgid "Unplayable Map"
+msgstr ""
+
+msgid ""
+"This map is not playable. You need at least one human player for the map to "
+"be playable."
+msgstr ""
+
+#, fuzzy
+msgid "Start Map"
+msgstr "Rozpocznij od nowa"
+
+#, fuzzy
+msgid ""
+"Do you wish to leave the Editor and start the map? (Any unsaved changes to "
+"the current map will be lost.)"
+msgstr ""
+"Czy na pewno chcesz wczytać nową grę? (aktualna rozgrywka zostanie przerwana)"
+
 #, fuzzy
 msgid "Create a new map from scratch."
 msgstr "nowa mapa od początku"
@@ -4227,12 +4288,15 @@ msgstr "Zapisz bieżącą grę."
 msgid "Quit out of the map editor."
 msgstr ""
 
-msgid "Input %{object} text"
+#, fuzzy
+msgid "Return to the game's Main Menu."
+msgstr "Kliknij, aby wrócić do głównego menu."
+
+msgid "Leave the Editor and play the map in the Standard Game mode."
 msgstr ""
 
-#, fuzzy
-msgid "Set %{resource-type} Count"
-msgstr "Strzelaj do %{monster}"
+msgid "Input %{object} text"
+msgstr ""
 
 #, fuzzy
 msgid "Set Random Ultimate Artifact Radius"
@@ -4244,6 +4308,9 @@ msgstr ""
 #, fuzzy
 msgid "This artifact"
 msgstr "z jednym artefaktem."
+
+msgid "The total number of obelisks is %{count}."
+msgstr ""
 
 #, fuzzy
 msgid "Roads"
@@ -4715,6 +4782,15 @@ msgstr ""
 "\n"
 "Położenie pliku: "
 
+msgid "RUMORS"
+msgstr ""
+
+msgid "EVENTS"
+msgstr ""
+
+msgid "LANGUAGE"
+msgstr ""
+
 msgid ""
 "The entered map description exceeds the maximum allowed 5 rows. It will be "
 "shortened to fit the map description field."
@@ -4908,6 +4984,12 @@ msgstr ""
 msgid "Delete an existing answer for the question."
 msgstr ""
 
+msgid "No artifact will be given as a reward."
+msgstr ""
+
+msgid "Delete an artifact from the reward."
+msgstr ""
+
 msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr ""
 
@@ -4931,6 +5013,9 @@ msgstr "i więcej..."
 
 msgid "Easy"
 msgstr "Łatwa"
+
+msgid "Normal"
+msgstr "Normalnie"
 
 msgid "Hard"
 msgstr "Trudna"
@@ -5579,9 +5664,6 @@ msgid "Default Actions"
 msgstr "domyślna akcja"
 
 msgid "Global Actions"
-msgstr ""
-
-msgid "Main Menu"
 msgstr ""
 
 msgid "World Map"
@@ -6398,6 +6480,9 @@ msgid ""
 "skill"
 msgstr "Obrona"
 
+msgid "The available values range from %{min} to %{max}."
+msgstr ""
+
 msgid "Keyboard|123"
 msgstr "123"
 
@@ -6488,6 +6573,24 @@ msgstr "Słowacki"
 
 msgid "Vietnamese"
 msgstr "Wietnamski"
+
+msgid "Slow"
+msgstr "Wolno"
+
+msgid "Fast"
+msgstr "Szybko"
+
+msgid "Very Fast"
+msgstr "Bardzo szybko"
+
+msgid "Dynamic"
+msgstr ""
+
+msgid "Good"
+msgstr "Dobry"
+
+msgid "Evil"
+msgstr "Zły"
 
 msgid ", FPS: "
 msgstr ", FPS: "
@@ -8181,10 +8284,6 @@ msgstr ""
 msgid "Change Experience value. Right-click to reset to default value."
 msgstr ""
 
-#, fuzzy
-msgid "Set Experience value"
-msgstr "Doświadczenie"
-
 msgid "View Experience Info"
 msgstr "Doświadczenie - informacje"
 
@@ -8298,6 +8397,9 @@ msgid ""
 msgstr ""
 "Obecne doświadczenie %{exp1}.\n"
 " Następny poziom %{exp2}."
+
+msgid "million|M"
+msgstr ""
 
 msgid "Level %{level}"
 msgstr "Poziom %{level}"
@@ -12347,6 +12449,9 @@ msgstr ""
 "Możesz pobrać najnowszą wersję gry ze strony:\n"
 "https://github.com/ihhub/\n"
 "fheroes2/releases"
+
+#~ msgid "Select count %{resource}:"
+#~ msgstr "Wybierz ilość %{resource}:"
 
 #~ msgid "Enable auto combat"
 #~ msgstr "Automatyczna walka"

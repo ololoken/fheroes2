@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 12:11+0000\n"
+"POT-Creation-Date: 2025-02-22 01:59+0000\n"
 "PO-Revision-Date: 2024-12-01 16:37+0300\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
@@ -18,60 +18,39 @@ msgstr ""
 "X-Launchpad-Export-Date: 2010-05-27 09:12+0000\n"
 "X-Generator: Poedit 3.5\n"
 
-msgid ""
-"BATTLE\n"
-"ONLY"
-msgstr ""
-"SADECE\n"
-"SAVAŞ"
+msgid "SELECT"
+msgstr "SEÇ"
 
-msgid ""
-"NEW\n"
-"GAME"
-msgstr ""
-"YENİ\n"
-"OYUN"
+msgid "S"
+msgstr "S"
 
-msgid ""
-"SAVE\n"
-"GAME"
-msgstr ""
-"OYUNU\n"
-"KAYDET"
+msgid "M"
+msgstr "M"
 
-msgid ""
-"LOAD\n"
-"GAME"
-msgstr ""
-"OYUNU\n"
-"YÜKLE"
+msgid "L"
+msgstr "L"
 
-msgid "INFO"
-msgstr "BİLGİ"
+msgid "X-L"
+msgstr "X-L"
 
-msgid "QUIT"
+msgid "ALL"
+msgstr "HEPSİ"
+
+msgid "EXIT"
 msgstr "ÇIKIŞ"
 
-msgid ""
-"NEW\n"
-"MAP"
-msgstr ""
-"YENİ\n"
-"HARİTA"
+msgid "smallerButton|EXIT"
+msgstr "ÇIKIŞ"
+
+msgid "HEROES"
+msgstr "KAHRAMANLAR"
 
 msgid ""
-"SAVE\n"
-"MAP"
+"TOWNS/\n"
+"CASTLES"
 msgstr ""
-"HARİTAYI\n"
-"KAYDET"
-
-msgid ""
-"LOAD\n"
-"MAP"
-msgstr ""
-"HARİTAYI\n"
-"YÜKLE"
+"KASABALAR/\n"
+"KALELER"
 
 msgid "CANCEL"
 msgstr "İPTAL"
@@ -97,48 +76,134 @@ msgstr "EVET"
 msgid "NO"
 msgstr "HAYIR"
 
-msgid "EXIT"
-msgstr "ÇIKIŞ"
-
-msgid "smallerButton|EXIT"
-msgstr "ÇIKIŞ"
-
 msgid "DISMISS"
 msgstr "BIRAK"
 
 msgid "UPGRADE"
 msgstr "GELİŞTİR"
 
+msgid "GIFT"
+msgstr "HEDİYE"
+
 msgid "RESTART"
 msgstr "TEKRARLA"
 
-msgid "HEROES"
-msgstr "KAHRAMANLAR"
+msgid "MAX"
+msgstr "MAKS"
+
+msgid "MIN"
+msgstr "MİN"
 
 msgid ""
-"TOWNS/\n"
-"CASTLES"
+"D\n"
+"I\n"
+"S\n"
+"M\n"
+"I\n"
+"S\n"
+"S"
 msgstr ""
-"KASABALAR/\n"
-"KALELER"
+"B\n"
+"I\n"
+"R\n"
+"A\n"
+"K"
 
-msgid "S"
-msgstr "S"
+msgid ""
+"E\n"
+"X\n"
+"I\n"
+"T"
+msgstr ""
+"Ç\n"
+"I\n"
+"K\n"
+"I\n"
+"Ş"
 
-msgid "M"
-msgstr "M"
+msgid ""
+"C\n"
+"A\n"
+"M\n"
+"P\n"
+"A\n"
+"I\n"
+"G\n"
+"N"
+msgstr ""
+"H\n"
+"İ\n"
+"K\n"
+"A\n"
+"Y\n"
+"E"
 
-msgid "L"
-msgstr "L"
+msgid ""
+"S\n"
+"T\n"
+"A\n"
+"N\n"
+"D\n"
+"A\n"
+"R\n"
+"D"
+msgstr ""
+"S\n"
+"T\n"
+"A\n"
+"N\n"
+"D\n"
+"A\n"
+"R\n"
+"T"
 
-msgid "X-L"
-msgstr "X-L"
+msgid ""
+"LOAD\n"
+"MAP"
+msgstr ""
+"HARİTAYI\n"
+"YÜKLE"
 
-msgid "ALL"
-msgstr "HEPSİ"
+msgid ""
+"NEW\n"
+"MAP"
+msgstr ""
+"YENİ\n"
+"HARİTA"
 
-msgid "SELECT"
-msgstr "SEÇ"
+msgid ""
+"SAVE\n"
+"MAP"
+msgstr ""
+"HARİTAYI\n"
+"KAYDET"
+
+msgid ""
+"NEW\n"
+"GAME"
+msgstr ""
+"YENİ\n"
+"OYUN"
+
+msgid ""
+"LOAD\n"
+"GAME"
+msgstr ""
+"OYUNU\n"
+"YÜKLE"
+
+msgid ""
+"SAVE\n"
+"GAME"
+msgstr ""
+"OYUNU\n"
+"KAYDET"
+
+msgid "QUIT"
+msgstr "ÇIKIŞ"
+
+msgid "INFO"
+msgstr "BİLGİ"
 
 msgid ""
 "STANDARD\n"
@@ -146,6 +211,13 @@ msgid ""
 msgstr ""
 "STANDART\n"
 "OYUN"
+
+msgid ""
+"BATTLE\n"
+"ONLY"
+msgstr ""
+"SADECE\n"
+"SAVAŞ"
 
 msgid ""
 "CAMPAIGN\n"
@@ -198,20 +270,11 @@ msgstr "5 OYUNCU"
 msgid "6 PLAYERS"
 msgstr "6 OYUNCU"
 
-msgid "GIFT"
-msgstr "HEDİYE"
-
-msgid "MAX"
-msgstr "MAKS"
-
 msgid "DIFFICULTY"
 msgstr "ZORLUK"
 
 msgid "VIEW INTRO"
 msgstr "İNTROYU İZLE"
-
-msgid "MIN"
-msgstr "MİN"
 
 msgid "RESET"
 msgstr "SIFIRLA"
@@ -225,35 +288,15 @@ msgstr "KASABA"
 msgid "CASTLE"
 msgstr "KALE"
 
-msgid "RESTRICT"
-msgstr "KISITLA"
+msgid ""
+"AUTO\n"
+"COMBAT"
+msgstr ""
 
 msgid ""
-"D\n"
-"I\n"
-"S\n"
-"M\n"
-"I\n"
-"S\n"
-"S"
+"QUICK\n"
+"COMBAT"
 msgstr ""
-"B\n"
-"I\n"
-"R\n"
-"A\n"
-"K"
-
-msgid ""
-"E\n"
-"X\n"
-"I\n"
-"T"
-msgstr ""
-"Ç\n"
-"I\n"
-"K\n"
-"I\n"
-"Ş"
 
 msgid ""
 "P\n"
@@ -270,61 +313,6 @@ msgstr ""
 "İ\n"
 "Y\n"
 "E"
-
-msgid ""
-"C\n"
-"A\n"
-"M\n"
-"P\n"
-"A\n"
-"I\n"
-"G\n"
-"N"
-msgstr ""
-"H\n"
-"İ\n"
-"K\n"
-"A\n"
-"Y\n"
-"E"
-
-msgid ""
-"S\n"
-"T\n"
-"A\n"
-"N\n"
-"D\n"
-"A\n"
-"R\n"
-"D"
-msgstr ""
-"S\n"
-"T\n"
-"A\n"
-"N\n"
-"D\n"
-"A\n"
-"R\n"
-"T"
-
-msgid "RUMORS"
-msgstr "SÖYLENTİLER"
-
-msgid "EVENTS"
-msgstr "ETKİNLİKLER"
-
-msgid "LANGUAGE"
-msgstr "DİL"
-
-msgid ""
-"AUTO\n"
-"COMBAT"
-msgstr ""
-
-msgid ""
-"QUICK\n"
-"COMBAT"
-msgstr ""
 
 msgid "Warrior"
 msgstr "Savaşçı"
@@ -3060,8 +3048,9 @@ msgstr "Önce alıcıları seçin!"
 msgid "You cannot select %{resource}!"
 msgstr "%{resource} seçemezsin!"
 
-msgid "Select count %{resource}:"
-msgstr "%{resource} sayısını seç:"
+#, fuzzy
+msgid "Set %{resource-type} Count"
+msgstr "%{monster} sayısını ayarla"
 
 msgid "Select Recipients"
 msgstr "Alıcıları Seçin"
@@ -3125,15 +3114,6 @@ msgstr "Etkinlik: "
 msgid "Hot Keys:"
 msgstr "Kısayollar:"
 
-msgid "Evil"
-msgstr "Şeytani"
-
-msgid "Good"
-msgstr "İyi"
-
-msgid "Interface Type"
-msgstr "Arayüz Tipi"
-
 msgid "Hide"
 msgstr "Gizle"
 
@@ -3143,26 +3123,17 @@ msgstr "Göster"
 msgid "Interface"
 msgstr "Arayüz"
 
-msgid "Slow"
-msgstr "Yavaş"
-
-msgid "Normal"
-msgstr "Normal"
-
-msgid "Fast"
-msgstr "Hızlı"
-
-msgid "Very Fast"
-msgstr "Çok Hızlı"
-
-msgid "Scroll Speed"
-msgstr "Kaydırma Hızı"
+msgid "Interface Type"
+msgstr "Arayüz Tipi"
 
 msgid "Toggle the type of interface you want to use."
 msgstr "Kullanmak istediğiniz arayüz türünü değiştirin."
 
 msgid "Toggle interface visibility."
 msgstr "Arayüz görünürlüğünü değiştirin."
+
+msgid "Scroll Speed"
+msgstr "Kaydırma Hızı"
 
 msgid "Sets the speed at which you scroll the window."
 msgstr "Pencereyi kaydırma hızını ayarlar."
@@ -3802,6 +3773,9 @@ msgstr ""
 msgid "Default Buildings"
 msgstr ""
 
+msgid "RESTRICT"
+msgstr "KISITLA"
+
 msgid "Default Army"
 msgstr ""
 
@@ -3923,19 +3897,52 @@ msgstr ""
 msgid "Delete an existing event."
 msgstr ""
 
+msgid "Effects:"
+msgstr ""
+
+#, fuzzy
+msgid "Conditions:"
+msgstr ""
+"Yenilgi\n"
+"Şartları"
+
 msgid "Cancel event after first visit"
+msgstr ""
+
+msgid "Computer colors allowed to get the event:"
+msgstr ""
+
+msgid "Set Experience value"
 msgstr ""
 
 msgid "Artifact"
 msgstr ""
 
-msgid "No artifact will be given as a reward."
+msgid "No artifact will be given by the event."
 msgstr ""
 
 msgid "Delete Artifact"
 msgstr ""
 
-msgid "Delete an artifact from the reward."
+msgid "Delete an artifact from the event."
+msgstr ""
+
+msgid "No Secondary Skill will be given by the event."
+msgstr ""
+
+msgid "Secondary Skill"
+msgstr ""
+
+msgid "Delete Secondary Skill"
+msgstr ""
+
+msgid "Delete the Secondary Skill from the event."
+msgstr ""
+
+msgid "No resources will be part of this event."
+msgstr ""
+
+msgid "These resources will be a part of the event."
 msgstr ""
 
 msgid ""
@@ -3979,6 +3986,52 @@ msgid ""
 "current map will be lost.)"
 msgstr ""
 
+msgid ""
+"MAIN\n"
+"MENU"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"START\n"
+"MAP"
+msgstr "BAŞLA"
+
+msgid "Main Menu"
+msgstr ""
+
+msgid ""
+"Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
+"current map will be lost.)"
+msgstr ""
+
+msgid "Unsaved Changes"
+msgstr ""
+
+msgid ""
+"This map has either terrain changes, undo history or has not yet been saved "
+"to a file.\n"
+"\n"
+"Do you wish to save the current map?"
+msgstr ""
+
+msgid "Unplayable Map"
+msgstr ""
+
+msgid ""
+"This map is not playable. You need at least one human player for the map to "
+"be playable."
+msgstr ""
+
+#, fuzzy
+msgid "Start Map"
+msgstr "Başla"
+
+msgid ""
+"Do you wish to leave the Editor and start the map? (Any unsaved changes to "
+"the current map will be lost.)"
+msgstr ""
+
 msgid "Create a new map from scratch."
 msgstr ""
 
@@ -4000,12 +4053,15 @@ msgstr ""
 msgid "Quit out of the map editor."
 msgstr ""
 
-msgid "Input %{object} text"
+#, fuzzy
+msgid "Return to the game's Main Menu."
+msgstr "Savaşa geri dön."
+
+msgid "Leave the Editor and play the map in the Standard Game mode."
 msgstr ""
 
-#, fuzzy
-msgid "Set %{resource-type} Count"
-msgstr "%{monster} sayısını ayarla"
+msgid "Input %{object} text"
+msgstr ""
 
 msgid "Set Random Ultimate Artifact Radius"
 msgstr ""
@@ -4014,6 +4070,9 @@ msgid "%{object} has no properties to change."
 msgstr ""
 
 msgid "This artifact"
+msgstr ""
+
+msgid "The total number of obelisks is %{count}."
 msgstr ""
 
 msgid "Roads"
@@ -4444,6 +4503,15 @@ msgstr ""
 msgid "Map Description"
 msgstr ""
 
+msgid "RUMORS"
+msgstr "SÖYLENTİLER"
+
+msgid "EVENTS"
+msgstr "ETKİNLİKLER"
+
+msgid "LANGUAGE"
+msgstr "DİL"
+
 msgid ""
 "The entered map description exceeds the maximum allowed 5 rows. It will be "
 "shortened to fit the map description field."
@@ -4616,6 +4684,12 @@ msgstr ""
 msgid "Delete an existing answer for the question."
 msgstr ""
 
+msgid "No artifact will be given as a reward."
+msgstr ""
+
+msgid "Delete an artifact from the reward."
+msgstr ""
+
 msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr ""
 
@@ -4639,6 +4713,9 @@ msgstr ""
 
 msgid "Easy"
 msgstr ""
+
+msgid "Normal"
+msgstr "Normal"
 
 msgid "Hard"
 msgstr ""
@@ -5253,9 +5330,6 @@ msgid "Default Actions"
 msgstr ""
 
 msgid "Global Actions"
-msgstr ""
-
-msgid "Main Menu"
 msgstr ""
 
 msgid "World Map"
@@ -5954,6 +6028,9 @@ msgid ""
 "skill"
 msgstr ""
 
+msgid "The available values range from %{min} to %{max}."
+msgstr ""
+
 msgid "Keyboard|123"
 msgstr ""
 
@@ -6043,6 +6120,24 @@ msgstr ""
 #, fuzzy
 msgid "Vietnamese"
 msgstr "Görünüm %{name}"
+
+msgid "Slow"
+msgstr "Yavaş"
+
+msgid "Fast"
+msgstr "Hızlı"
+
+msgid "Very Fast"
+msgstr "Çok Hızlı"
+
+msgid "Dynamic"
+msgstr ""
+
+msgid "Good"
+msgstr "İyi"
+
+msgid "Evil"
+msgstr "Şeytani"
 
 msgid ", FPS: "
 msgstr ""
@@ -7328,9 +7423,6 @@ msgstr ""
 msgid "Change Experience value. Right-click to reset to default value."
 msgstr ""
 
-msgid "Set Experience value"
-msgstr ""
-
 msgid "View Experience Info"
 msgstr ""
 
@@ -7433,6 +7525,9 @@ msgstr ""
 msgid ""
 "Current experience %{exp1}.\n"
 " Next level %{exp2}."
+msgstr ""
+
+msgid "million|M"
 msgstr ""
 
 msgid "Level %{level}"
@@ -10893,6 +10988,9 @@ msgid ""
 "https://github.com/ihhub/\n"
 "fheroes2/releases"
 msgstr ""
+
+#~ msgid "Select count %{resource}:"
+#~ msgstr "%{resource} sayısını seç:"
 
 #~ msgid "Enable auto combat"
 #~ msgstr "Otomatik savacı aç"

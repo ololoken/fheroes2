@@ -1,6 +1,6 @@
 /***************************************************************************
  *   fheroes2: https://github.com/ihhub/fheroes2                           *
- *   Copyright (C) 2019 - 2024                                             *
+ *   Copyright (C) 2019 - 2025                                             *
  *                                                                         *
  *   Free Heroes2 Engine: http://sourceforge.net/projects/fheroes2         *
  *   Copyright (C) 2009 by Andrey Afletdinov <fheroes2@gmail.com>          *
@@ -29,6 +29,7 @@
 #include <functional>
 #include <list>
 #include <map>
+#include <optional>
 #include <ostream>
 #include <set>
 #include <string>
@@ -63,6 +64,7 @@
 #include "resource.h"
 #include "serialize.h"
 #include "settings.h"
+#include "skill.h"
 #include "spell.h"
 #include "world.h" // IWYU pragma: associated
 #include "world_object_uid.h"
@@ -878,7 +880,6 @@ bool World::loadResurrectionMap( const std::string & filename )
                         break;
                     }
 
-                    // TODO: change MapEvent to support map format functionality.
                     auto eventObject = std::make_unique<MapEvent>();
                     eventObject->resources = eventInfo.resources;
                     eventObject->artifact = eventInfo.artifact;
@@ -886,10 +887,12 @@ bool World::loadResurrectionMap( const std::string & filename )
                         eventObject->artifact.SetSpell( eventInfo.artifactMetadata );
                     }
 
-                    eventObject->computer = ( computerColors != 0 );
+                    eventObject->isComputerPlayerAllowed = ( computerColors != 0 );
                     eventObject->colors = humanColors | computerColors;
                     eventObject->message = std::move( eventInfo.message );
                     eventObject->isSingleTimeEvent = !eventInfo.isRecurringEvent;
+                    eventObject->secondarySkill = { eventInfo.secondarySkill, eventInfo.secondarySkillLevel };
+                    eventObject->experience = eventInfo.experience;
 
                     eventObject->setUIDAndIndex( static_cast<int32_t>( tileId ) );
 
@@ -948,10 +951,13 @@ bool World::loadResurrectionMap( const std::string & filename )
                     auto & signInfo = map.signMetadata[object.id];
 
                     auto signObject = std::make_unique<MapSign>();
-                    signObject->message = std::move( signInfo.message );
+                    signObject->message.text = std::move( signInfo.message );
                     signObject->setUIDAndIndex( static_cast<int32_t>( tileId ) );
-                    if ( signObject->message.empty() ) {
+                    if ( signObject->message.text.empty() ) {
                         signObject->setDefaultMessage();
+                    }
+                    else {
+                        signObject->message.language = map.mainLanguage;
                     }
 
                     map_objects.add( std::move( signObject ) );
@@ -1040,10 +1046,13 @@ bool World::loadResurrectionMap( const std::string & filename )
                     auto & signInfo = map.signMetadata[object.id];
 
                     auto signObject = std::make_unique<MapSign>();
-                    signObject->message = std::move( signInfo.message );
+                    signObject->message.text = std::move( signInfo.message );
                     signObject->setUIDAndIndex( static_cast<int32_t>( tileId ) );
-                    if ( signObject->message.empty() ) {
+                    if ( signObject->message.text.empty() ) {
                         signObject->setDefaultMessage();
+                    }
+                    else {
+                        signObject->message.language = map.mainLanguage;
                     }
 
                     map_objects.add( std::move( signObject ) );

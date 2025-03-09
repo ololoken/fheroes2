@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 12:11+0000\n"
+"POT-Creation-Date: 2025-02-22 01:59+0000\n"
 "PO-Revision-Date: 2024-05-21 12:45+0200\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: Danish (Denmark)\n"
@@ -20,60 +20,39 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 "X-Loco-Parser: loco_parse_po\n"
 
-msgid ""
-"BATTLE\n"
-"ONLY"
-msgstr ""
-"KUN\n"
-"KAMP"
+msgid "SELECT"
+msgstr "VÆLG"
+
+msgid "S"
+msgstr "S"
+
+msgid "M"
+msgstr "M"
+
+msgid "L"
+msgstr "L"
+
+msgid "X-L"
+msgstr "XL"
+
+msgid "ALL"
+msgstr "ALT"
+
+msgid "EXIT"
+msgstr "UD"
+
+msgid "smallerButton|EXIT"
+msgstr "UD"
+
+msgid "HEROES"
+msgstr "HELTE"
 
 msgid ""
-"NEW\n"
-"GAME"
+"TOWNS/\n"
+"CASTLES"
 msgstr ""
-"NYT\n"
-"SPIL"
-
-msgid ""
-"SAVE\n"
-"GAME"
-msgstr ""
-"GEM\n"
-"SPIL"
-
-msgid ""
-"LOAD\n"
-"GAME"
-msgstr ""
-"INDLÆS\n"
-"SPIL"
-
-msgid "INFO"
-msgstr "INFO"
-
-msgid "QUIT"
-msgstr "AFSLUT"
-
-msgid ""
-"NEW\n"
-"MAP"
-msgstr ""
-"NYT\n"
-"KORT"
-
-msgid ""
-"SAVE\n"
-"MAP"
-msgstr ""
-"GEM\n"
-"KORT"
-
-msgid ""
-"LOAD\n"
-"MAP"
-msgstr ""
-"INDLÆS\n"
-"KORT"
+"BYER\n"
+"BORGE"
 
 msgid "CANCEL"
 msgstr "AFBRYD"
@@ -99,48 +78,132 @@ msgstr "JA"
 msgid "NO"
 msgstr "NEJ"
 
-msgid "EXIT"
-msgstr "UD"
-
-msgid "smallerButton|EXIT"
-msgstr "UD"
-
 msgid "DISMISS"
 msgstr "BORTVIS"
 
 msgid "UPGRADE"
 msgstr "OPG."
 
+msgid "GIFT"
+msgstr "FORÆR"
+
 msgid "RESTART"
 msgstr "OMKAMP"
 
-msgid "HEROES"
-msgstr "HELTE"
+msgid "MAX"
+msgstr "MAKS"
+
+msgid "MIN"
+msgstr "MIN"
 
 msgid ""
-"TOWNS/\n"
-"CASTLES"
+"D\n"
+"I\n"
+"S\n"
+"M\n"
+"I\n"
+"S\n"
+"S"
 msgstr ""
-"BYER\n"
-"BORGE"
+"B\n"
+"O\n"
+"R\n"
+"T\n"
+"V\n"
+"I\n"
+"S"
 
-msgid "S"
-msgstr "S"
+msgid ""
+"E\n"
+"X\n"
+"I\n"
+"T"
+msgstr ""
+"U\n"
+"D"
 
-msgid "M"
-msgstr "M"
+msgid ""
+"C\n"
+"A\n"
+"M\n"
+"P\n"
+"A\n"
+"I\n"
+"G\n"
+"N"
+msgstr ""
+"F\n"
+"E\n"
+"L\n"
+"T\n"
+"T\n"
+"O\n"
+"G"
 
-msgid "L"
-msgstr "L"
+msgid ""
+"S\n"
+"T\n"
+"A\n"
+"N\n"
+"D\n"
+"A\n"
+"R\n"
+"D"
+msgstr ""
+"E\n"
+"N\n"
+"K\n"
+"E\n"
+"L\n"
+"T"
 
-msgid "X-L"
-msgstr "XL"
+msgid ""
+"LOAD\n"
+"MAP"
+msgstr ""
+"INDLÆS\n"
+"KORT"
 
-msgid "ALL"
-msgstr "ALT"
+msgid ""
+"NEW\n"
+"MAP"
+msgstr ""
+"NYT\n"
+"KORT"
 
-msgid "SELECT"
-msgstr "VÆLG"
+msgid ""
+"SAVE\n"
+"MAP"
+msgstr ""
+"GEM\n"
+"KORT"
+
+msgid ""
+"NEW\n"
+"GAME"
+msgstr ""
+"NYT\n"
+"SPIL"
+
+msgid ""
+"LOAD\n"
+"GAME"
+msgstr ""
+"INDLÆS\n"
+"SPIL"
+
+msgid ""
+"SAVE\n"
+"GAME"
+msgstr ""
+"GEM\n"
+"SPIL"
+
+msgid "QUIT"
+msgstr "AFSLUT"
+
+msgid "INFO"
+msgstr "INFO"
 
 msgid ""
 "STANDARD\n"
@@ -148,6 +211,13 @@ msgid ""
 msgstr ""
 "ENKELT\n"
 "SPILLER"
+
+msgid ""
+"BATTLE\n"
+"ONLY"
+msgstr ""
+"KUN\n"
+"KAMP"
 
 msgid ""
 "CAMPAIGN\n"
@@ -197,20 +267,11 @@ msgstr "5 SPILLERE"
 msgid "6 PLAYERS"
 msgstr "6 SPILLERE"
 
-msgid "GIFT"
-msgstr "FORÆR"
-
-msgid "MAX"
-msgstr "MAKS"
-
 msgid "DIFFICULTY"
 msgstr "NIVEAU"
 
 msgid "VIEW INTRO"
 msgstr "VIS INTRO"
-
-msgid "MIN"
-msgstr "MIN"
 
 msgid "RESET"
 msgstr "NULSTIL"
@@ -224,34 +285,15 @@ msgstr "BY"
 msgid "CASTLE"
 msgstr "BORGE"
 
-msgid "RESTRICT"
-msgstr "BEGRÆNS"
+msgid ""
+"AUTO\n"
+"COMBAT"
+msgstr ""
 
 msgid ""
-"D\n"
-"I\n"
-"S\n"
-"M\n"
-"I\n"
-"S\n"
-"S"
+"QUICK\n"
+"COMBAT"
 msgstr ""
-"B\n"
-"O\n"
-"R\n"
-"T\n"
-"V\n"
-"I\n"
-"S"
-
-msgid ""
-"E\n"
-"X\n"
-"I\n"
-"T"
-msgstr ""
-"U\n"
-"D"
 
 msgid ""
 "P\n"
@@ -269,60 +311,6 @@ msgstr ""
 "L\n"
 "J\n"
 "E"
-
-msgid ""
-"C\n"
-"A\n"
-"M\n"
-"P\n"
-"A\n"
-"I\n"
-"G\n"
-"N"
-msgstr ""
-"F\n"
-"E\n"
-"L\n"
-"T\n"
-"T\n"
-"O\n"
-"G"
-
-msgid ""
-"S\n"
-"T\n"
-"A\n"
-"N\n"
-"D\n"
-"A\n"
-"R\n"
-"D"
-msgstr ""
-"E\n"
-"N\n"
-"K\n"
-"E\n"
-"L\n"
-"T"
-
-msgid "RUMORS"
-msgstr ""
-
-msgid "EVENTS"
-msgstr ""
-
-msgid "LANGUAGE"
-msgstr ""
-
-msgid ""
-"AUTO\n"
-"COMBAT"
-msgstr ""
-
-msgid ""
-"QUICK\n"
-"COMBAT"
-msgstr ""
 
 msgid "Warrior"
 msgstr "Kriger"
@@ -3208,8 +3196,9 @@ msgstr "Vælg først modtagere!"
 msgid "You cannot select %{resource}!"
 msgstr "Du kan ikke vælge %{resource}!"
 
-msgid "Select count %{resource}:"
-msgstr "Vælg antal %{resource}:"
+#, fuzzy
+msgid "Set %{resource-type} Count"
+msgstr "Indstil antal %{monster}"
 
 msgid "Select Recipients"
 msgstr "Vælg modtagere"
@@ -3275,15 +3264,6 @@ msgstr "Begivenhed: "
 msgid "Hot Keys:"
 msgstr "Genvejstaster:"
 
-msgid "Evil"
-msgstr "Ond"
-
-msgid "Good"
-msgstr "God"
-
-msgid "Interface Type"
-msgstr "Interface-type"
-
 msgid "Hide"
 msgstr "Skjul"
 
@@ -3293,28 +3273,19 @@ msgstr "Vis"
 msgid "Interface"
 msgstr "Interface"
 
-msgid "Slow"
-msgstr "Langsom"
-
-msgid "Normal"
-msgstr "Normal"
-
-msgid "Fast"
-msgstr "Hurtig"
-
-msgid "Very Fast"
-msgstr "Meget hurtig"
-
-msgid "Scroll Speed"
-msgstr ""
-"Rulle\n"
-"hastighed"
+msgid "Interface Type"
+msgstr "Interface-type"
 
 msgid "Toggle the type of interface you want to use."
 msgstr "Vælg hvilken interface-type du ønsker at bruge."
 
 msgid "Toggle interface visibility."
 msgstr "Vælg interfacets synlighed til eller fra."
+
+msgid "Scroll Speed"
+msgstr ""
+"Rulle\n"
+"hastighed"
 
 msgid "Sets the speed at which you scroll the window."
 msgstr "Bestemmer vinduets rullehastighed."
@@ -3980,6 +3951,9 @@ msgstr "Tillad borgbyggeri"
 msgid "Default Buildings"
 msgstr "Standardbygninger"
 
+msgid "RESTRICT"
+msgstr "BEGRÆNS"
+
 msgid "Default Army"
 msgstr ""
 "standard\n"
@@ -4106,19 +4080,55 @@ msgstr ""
 msgid "Delete an existing event."
 msgstr "indlæs et eksisterende kort."
 
+#, fuzzy
+msgid "Effects:"
+msgstr "Effekter"
+
+#, fuzzy
+msgid "Conditions:"
+msgstr ""
+"Tabs-\n"
+"vilkår"
+
 msgid "Cancel event after first visit"
 msgstr ""
+
+msgid "Computer colors allowed to get the event:"
+msgstr ""
+
+msgid "Set Experience value"
+msgstr "Indstil erfaringspoint"
 
 msgid "Artifact"
 msgstr "Artefakt"
 
-msgid "No artifact will be given as a reward."
+msgid "No artifact will be given by the event."
 msgstr ""
 
 msgid "Delete Artifact"
 msgstr "Slet artefakt:"
 
-msgid "Delete an artifact from the reward."
+#, fuzzy
+msgid "Delete an artifact from the event."
+msgstr "indlæs et eksisterende kort."
+
+msgid "No Secondary Skill will be given by the event."
+msgstr ""
+
+#, fuzzy
+msgid "Secondary Skill"
+msgstr "Vælg evne:"
+
+msgid "Delete Secondary Skill"
+msgstr ""
+
+msgid "Delete the Secondary Skill from the event."
+msgstr ""
+
+msgid "No resources will be part of this event."
+msgstr ""
+
+msgid "These resources will be a part of the event."
 msgstr ""
 
 msgid ""
@@ -4170,6 +4180,58 @@ msgstr ""
 "Er du sikker på, at du vil oprette et nyt kort? (Alle ikke-gemte ændringer "
 "af det nuværende kort, vil gå tabt.)"
 
+msgid ""
+"MAIN\n"
+"MENU"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"START\n"
+"MAP"
+msgstr "START"
+
+msgid "Main Menu"
+msgstr "Hovedmenu"
+
+#, fuzzy
+msgid ""
+"Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
+"current map will be lost.)"
+msgstr ""
+"Er du sikker på, at du vil tilbage til spillets hovedmenu? Alle ikke-gemte "
+"ændringer vil gå tabt."
+
+msgid "Unsaved Changes"
+msgstr ""
+
+msgid ""
+"This map has either terrain changes, undo history or has not yet been saved "
+"to a file.\n"
+"\n"
+"Do you wish to save the current map?"
+msgstr ""
+
+msgid "Unplayable Map"
+msgstr ""
+
+msgid ""
+"This map is not playable. You need at least one human player for the map to "
+"be playable."
+msgstr ""
+
+#, fuzzy
+msgid "Start Map"
+msgstr "Genstart"
+
+#, fuzzy
+msgid ""
+"Do you wish to leave the Editor and start the map? (Any unsaved changes to "
+"the current map will be lost.)"
+msgstr ""
+"Er du sikker på, at du vil indlæse et nyt kort? (Alle ikke-gemte ændringer "
+"på det nuværende kort, vil gå tabt.)"
+
 msgid "Create a new map from scratch."
 msgstr "Opret et nyt kort fra bunden."
 
@@ -4191,12 +4253,15 @@ msgstr "Gem nuværende kort."
 msgid "Quit out of the map editor."
 msgstr "Forlad korteditoren."
 
+#, fuzzy
+msgid "Return to the game's Main Menu."
+msgstr "Klik her for at vende tilbage til hovedmenuen."
+
+msgid "Leave the Editor and play the map in the Standard Game mode."
+msgstr ""
+
 msgid "Input %{object} text"
 msgstr "Indtast tekst til %{object}"
-
-#, fuzzy
-msgid "Set %{resource-type} Count"
-msgstr "Indstil antal %{monster}"
 
 msgid "Set Random Ultimate Artifact Radius"
 msgstr "Indstil radius: Tilfældigt Ultimativt Artefakt"
@@ -4207,6 +4272,9 @@ msgstr ""
 #, fuzzy
 msgid "This artifact"
 msgstr "med 1 artefakt."
+
+msgid "The total number of obelisks is %{count}."
+msgstr ""
 
 msgid "Roads"
 msgstr "Veje"
@@ -4679,6 +4747,15 @@ msgstr ""
 "\n"
 "Placering: "
 
+msgid "RUMORS"
+msgstr ""
+
+msgid "EVENTS"
+msgstr ""
+
+msgid "LANGUAGE"
+msgstr ""
+
 msgid ""
 "The entered map description exceeds the maximum allowed 5 rows. It will be "
 "shortened to fit the map description field."
@@ -4866,6 +4943,12 @@ msgstr ""
 msgid "Delete an existing answer for the question."
 msgstr ""
 
+msgid "No artifact will be given as a reward."
+msgstr ""
+
+msgid "Delete an artifact from the reward."
+msgstr ""
+
 msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr ""
 
@@ -4889,6 +4972,9 @@ msgstr "og mere..."
 
 msgid "Easy"
 msgstr "Let"
+
+msgid "Normal"
+msgstr "Normal"
 
 msgid "Hard"
 msgstr "Svær"
@@ -5524,9 +5610,6 @@ msgstr "Standardhandlinger"
 
 msgid "Global Actions"
 msgstr "Globale Handlinger"
-
-msgid "Main Menu"
-msgstr "Hovedmenu"
 
 msgid "World Map"
 msgstr "Verdenskort"
@@ -6337,6 +6420,9 @@ msgstr ""
 "standard\n"
 "evne"
 
+msgid "The available values range from %{min} to %{max}."
+msgstr ""
+
 msgid "Keyboard|123"
 msgstr "123"
 
@@ -6426,6 +6512,24 @@ msgstr "Slovensk"
 
 msgid "Vietnamese"
 msgstr "Vietnamesisk"
+
+msgid "Slow"
+msgstr "Langsom"
+
+msgid "Fast"
+msgstr "Hurtig"
+
+msgid "Very Fast"
+msgstr "Meget hurtig"
+
+msgid "Dynamic"
+msgstr ""
+
+msgid "Good"
+msgstr "God"
+
+msgid "Evil"
+msgstr "Ond"
 
 msgid ", FPS: "
 msgstr ", FPS:"
@@ -8126,9 +8230,6 @@ msgstr "Indstil tilpasset erfaringspointværdi. Nuværende værdi er standard."
 msgid "Change Experience value. Right-click to reset to default value."
 msgstr "Skift erfaringspointværdi. Højreklik: Nulstil til standardværdi."
 
-msgid "Set Experience value"
-msgstr "Indstil erfaringspoint"
-
 msgid "View Experience Info"
 msgstr "Vis erfaringsinfo"
 
@@ -8236,6 +8337,9 @@ msgid ""
 msgstr ""
 "Nuværende erfaringspoint %{exp1}.\n"
 " Næste level %{exp2}."
+
+msgid "million|M"
+msgstr ""
 
 msgid "Level %{level}"
 msgstr "Level %{level}"
@@ -12191,6 +12295,9 @@ msgstr ""
 "Check den nyeste version af spillet på\n"
 "https://github.com/ihhub/\n"
 "fheroes2/releases"
+
+#~ msgid "Select count %{resource}:"
+#~ msgstr "Vælg antal %{resource}:"
 
 #~ msgid "Enable auto combat"
 #~ msgstr "Aktiver Autokamp"

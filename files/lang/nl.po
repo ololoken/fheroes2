@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 12:11+0000\n"
+"POT-Creation-Date: 2025-02-22 01:59+0000\n"
 "PO-Revision-Date: 2022-10-25 08:52+0200\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
@@ -18,47 +18,36 @@ msgstr ""
 "X-Launchpad-Export-Date: 2010-05-27 09:12+0000\n"
 "X-Generator: Poedit 3.1.1\n"
 
-msgid ""
-"BATTLE\n"
-"ONLY"
-msgstr ""
-"ALLEEN\n"
-"STRIJD"
-
-msgid ""
-"NEW\n"
-"GAME"
+msgid "SELECT"
 msgstr ""
 
-msgid ""
-"SAVE\n"
-"GAME"
+msgid "S"
 msgstr ""
 
-msgid ""
-"LOAD\n"
-"GAME"
+msgid "M"
 msgstr ""
 
-msgid "INFO"
+msgid "L"
 msgstr ""
 
-msgid "QUIT"
+msgid "X-L"
 msgstr ""
 
-msgid ""
-"NEW\n"
-"MAP"
+msgid "ALL"
+msgstr ""
+
+msgid "EXIT"
+msgstr ""
+
+msgid "smallerButton|EXIT"
+msgstr ""
+
+msgid "HEROES"
 msgstr ""
 
 msgid ""
-"SAVE\n"
-"MAP"
-msgstr ""
-
-msgid ""
-"LOAD\n"
-"MAP"
+"TOWNS/\n"
+"CASTLES"
 msgstr ""
 
 msgid "CANCEL"
@@ -85,51 +74,110 @@ msgstr ""
 msgid "NO"
 msgstr ""
 
-msgid "EXIT"
-msgstr ""
-
-msgid "smallerButton|EXIT"
-msgstr ""
-
 msgid "DISMISS"
 msgstr ""
 
 msgid "UPGRADE"
 msgstr ""
 
+msgid "GIFT"
+msgstr "DONEREN"
+
 msgid "RESTART"
 msgstr ""
 
-msgid "HEROES"
+msgid "MAX"
+msgstr ""
+
+msgid "MIN"
+msgstr "MIN"
+
+msgid ""
+"D\n"
+"I\n"
+"S\n"
+"M\n"
+"I\n"
+"S\n"
+"S"
 msgstr ""
 
 msgid ""
-"TOWNS/\n"
-"CASTLES"
+"E\n"
+"X\n"
+"I\n"
+"T"
 msgstr ""
 
-msgid "S"
+msgid ""
+"C\n"
+"A\n"
+"M\n"
+"P\n"
+"A\n"
+"I\n"
+"G\n"
+"N"
 msgstr ""
 
-msgid "M"
+msgid ""
+"S\n"
+"T\n"
+"A\n"
+"N\n"
+"D\n"
+"A\n"
+"R\n"
+"D"
 msgstr ""
 
-msgid "L"
+msgid ""
+"LOAD\n"
+"MAP"
 msgstr ""
 
-msgid "X-L"
+msgid ""
+"NEW\n"
+"MAP"
 msgstr ""
 
-msgid "ALL"
+msgid ""
+"SAVE\n"
+"MAP"
 msgstr ""
 
-msgid "SELECT"
+msgid ""
+"NEW\n"
+"GAME"
+msgstr ""
+
+msgid ""
+"LOAD\n"
+"GAME"
+msgstr ""
+
+msgid ""
+"SAVE\n"
+"GAME"
+msgstr ""
+
+msgid "QUIT"
+msgstr ""
+
+msgid "INFO"
 msgstr ""
 
 msgid ""
 "STANDARD\n"
 "GAME"
 msgstr ""
+
+msgid ""
+"BATTLE\n"
+"ONLY"
+msgstr ""
+"ALLEEN\n"
+"STRIJD"
 
 msgid ""
 "CAMPAIGN\n"
@@ -173,20 +221,11 @@ msgstr ""
 msgid "6 PLAYERS"
 msgstr ""
 
-msgid "GIFT"
-msgstr "DONEREN"
-
-msgid "MAX"
-msgstr ""
-
 msgid "DIFFICULTY"
 msgstr "NIVEAU"
 
 msgid "VIEW INTRO"
 msgstr ""
-
-msgid "MIN"
-msgstr "MIN"
 
 msgid "RESET"
 msgstr ""
@@ -200,24 +239,14 @@ msgstr ""
 msgid "CASTLE"
 msgstr ""
 
-msgid "RESTRICT"
+msgid ""
+"AUTO\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
-"D\n"
-"I\n"
-"S\n"
-"M\n"
-"I\n"
-"S\n"
-"S"
-msgstr ""
-
-msgid ""
-"E\n"
-"X\n"
-"I\n"
-"T"
+"QUICK\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
@@ -227,47 +256,6 @@ msgid ""
 "R\n"
 "O\n"
 "L"
-msgstr ""
-
-msgid ""
-"C\n"
-"A\n"
-"M\n"
-"P\n"
-"A\n"
-"I\n"
-"G\n"
-"N"
-msgstr ""
-
-msgid ""
-"S\n"
-"T\n"
-"A\n"
-"N\n"
-"D\n"
-"A\n"
-"R\n"
-"D"
-msgstr ""
-
-msgid "RUMORS"
-msgstr ""
-
-msgid "EVENTS"
-msgstr ""
-
-msgid "LANGUAGE"
-msgstr ""
-
-msgid ""
-"AUTO\n"
-"COMBAT"
-msgstr ""
-
-msgid ""
-"QUICK\n"
-"COMBAT"
 msgstr ""
 
 msgid "Warrior"
@@ -3099,8 +3087,9 @@ msgstr ""
 msgid "You cannot select %{resource}!"
 msgstr ""
 
-msgid "Select count %{resource}:"
-msgstr ""
+#, fuzzy
+msgid "Set %{resource-type} Count"
+msgstr "Schiet %{monster}"
 
 msgid "Select Recipients"
 msgstr ""
@@ -3165,15 +3154,6 @@ msgstr ""
 msgid "Hot Keys:"
 msgstr ""
 
-msgid "Evil"
-msgstr ""
-
-msgid "Good"
-msgstr ""
-
-msgid "Interface Type"
-msgstr ""
-
 #, fuzzy
 msgid "Hide"
 msgstr "Horde"
@@ -3184,25 +3164,16 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-msgid "Slow"
-msgstr ""
-
-msgid "Normal"
-msgstr ""
-
-msgid "Fast"
-msgstr ""
-
-msgid "Very Fast"
-msgstr ""
-
-msgid "Scroll Speed"
+msgid "Interface Type"
 msgstr ""
 
 msgid "Toggle the type of interface you want to use."
 msgstr ""
 
 msgid "Toggle interface visibility."
+msgstr ""
+
+msgid "Scroll Speed"
 msgstr ""
 
 msgid "Sets the speed at which you scroll the window."
@@ -3840,6 +3811,9 @@ msgstr ""
 msgid "Default Buildings"
 msgstr ""
 
+msgid "RESTRICT"
+msgstr ""
+
 msgid "Default Army"
 msgstr ""
 
@@ -3964,19 +3938,50 @@ msgstr ""
 msgid "Delete an existing event."
 msgstr ""
 
+msgid "Effects:"
+msgstr ""
+
+#, fuzzy
+msgid "Conditions:"
+msgstr "Annexatie"
+
 msgid "Cancel event after first visit"
+msgstr ""
+
+msgid "Computer colors allowed to get the event:"
+msgstr ""
+
+msgid "Set Experience value"
 msgstr ""
 
 msgid "Artifact"
 msgstr ""
 
-msgid "No artifact will be given as a reward."
+msgid "No artifact will be given by the event."
 msgstr ""
 
 msgid "Delete Artifact"
 msgstr ""
 
-msgid "Delete an artifact from the reward."
+msgid "Delete an artifact from the event."
+msgstr ""
+
+msgid "No Secondary Skill will be given by the event."
+msgstr ""
+
+msgid "Secondary Skill"
+msgstr ""
+
+msgid "Delete Secondary Skill"
+msgstr ""
+
+msgid "Delete the Secondary Skill from the event."
+msgstr ""
+
+msgid "No resources will be part of this event."
+msgstr ""
+
+msgid "These resources will be a part of the event."
 msgstr ""
 
 msgid ""
@@ -4020,6 +4025,50 @@ msgid ""
 "current map will be lost.)"
 msgstr ""
 
+msgid ""
+"MAIN\n"
+"MENU"
+msgstr ""
+
+msgid ""
+"START\n"
+"MAP"
+msgstr ""
+
+msgid "Main Menu"
+msgstr ""
+
+msgid ""
+"Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
+"current map will be lost.)"
+msgstr ""
+
+msgid "Unsaved Changes"
+msgstr ""
+
+msgid ""
+"This map has either terrain changes, undo history or has not yet been saved "
+"to a file.\n"
+"\n"
+"Do you wish to save the current map?"
+msgstr ""
+
+msgid "Unplayable Map"
+msgstr ""
+
+msgid ""
+"This map is not playable. You need at least one human player for the map to "
+"be playable."
+msgstr ""
+
+msgid "Start Map"
+msgstr ""
+
+msgid ""
+"Do you wish to leave the Editor and start the map? (Any unsaved changes to "
+"the current map will be lost.)"
+msgstr ""
+
 msgid "Create a new map from scratch."
 msgstr ""
 
@@ -4041,12 +4090,15 @@ msgstr ""
 msgid "Quit out of the map editor."
 msgstr ""
 
-msgid "Input %{object} text"
+#, fuzzy
+msgid "Return to the game's Main Menu."
+msgstr "Keer terug naar de strijd."
+
+msgid "Leave the Editor and play the map in the Standard Game mode."
 msgstr ""
 
-#, fuzzy
-msgid "Set %{resource-type} Count"
-msgstr "Schiet %{monster}"
+msgid "Input %{object} text"
+msgstr ""
 
 msgid "Set Random Ultimate Artifact Radius"
 msgstr ""
@@ -4055,6 +4107,9 @@ msgid "%{object} has no properties to change."
 msgstr ""
 
 msgid "This artifact"
+msgstr ""
+
+msgid "The total number of obelisks is %{count}."
 msgstr ""
 
 msgid "Roads"
@@ -4494,6 +4549,15 @@ msgstr ""
 msgid "Map Description"
 msgstr ""
 
+msgid "RUMORS"
+msgstr ""
+
+msgid "EVENTS"
+msgstr ""
+
+msgid "LANGUAGE"
+msgstr ""
+
 msgid ""
 "The entered map description exceeds the maximum allowed 5 rows. It will be "
 "shortened to fit the map description field."
@@ -4676,6 +4740,12 @@ msgstr ""
 msgid "Delete an existing answer for the question."
 msgstr ""
 
+msgid "No artifact will be given as a reward."
+msgstr ""
+
+msgid "Delete an artifact from the reward."
+msgstr ""
+
 msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr ""
 
@@ -4698,6 +4768,9 @@ msgid "and more..."
 msgstr ""
 
 msgid "Easy"
+msgstr ""
+
+msgid "Normal"
 msgstr ""
 
 msgid "Hard"
@@ -5313,9 +5386,6 @@ msgid "Default Actions"
 msgstr ""
 
 msgid "Global Actions"
-msgstr ""
-
-msgid "Main Menu"
 msgstr ""
 
 msgid "World Map"
@@ -6014,6 +6084,9 @@ msgid ""
 "skill"
 msgstr ""
 
+msgid "The available values range from %{min} to %{max}."
+msgstr ""
+
 msgid "Keyboard|123"
 msgstr ""
 
@@ -6103,6 +6176,24 @@ msgstr ""
 #, fuzzy
 msgid "Vietnamese"
 msgstr "Zie %{name}"
+
+msgid "Slow"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+msgid "Very Fast"
+msgstr ""
+
+msgid "Dynamic"
+msgstr ""
+
+msgid "Good"
+msgstr ""
+
+msgid "Evil"
+msgstr ""
 
 msgid ", FPS: "
 msgstr ""
@@ -7390,9 +7481,6 @@ msgstr ""
 msgid "Change Experience value. Right-click to reset to default value."
 msgstr ""
 
-msgid "Set Experience value"
-msgstr ""
-
 msgid "View Experience Info"
 msgstr ""
 
@@ -7496,6 +7584,9 @@ msgstr ""
 msgid ""
 "Current experience %{exp1}.\n"
 " Next level %{exp2}."
+msgstr ""
+
+msgid "million|M"
 msgstr ""
 
 msgid "Level %{level}"

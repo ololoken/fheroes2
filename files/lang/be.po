@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 12:11+0000\n"
+"POT-Creation-Date: 2025-02-22 01:59+0000\n"
 "PO-Revision-Date: 2022-09-23 16:01+0200\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: \n"
@@ -19,61 +19,37 @@ msgstr ""
 "X-Generator: Poedit 3.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-msgid ""
-"BATTLE\n"
-"ONLY"
+msgid "SELECT"
 msgstr ""
-"АСОБНЫ\n"
-"БОЙ"
 
-msgid ""
-"NEW\n"
-"GAME"
-msgstr "НОВАЯ"
-
-msgid ""
-"SAVE\n"
-"GAME"
+msgid "S"
 msgstr ""
-"ЗАХА-\n"
-"ВАЦЬ"
+
+msgid "M"
+msgstr ""
+
+msgid "L"
+msgstr ""
+
+msgid "X-L"
+msgstr ""
+
+msgid "ALL"
+msgstr "УСЕ"
+
+msgid "EXIT"
+msgstr "ВЫЙСЦІ"
+
+msgid "smallerButton|EXIT"
+msgstr ""
+
+msgid "HEROES"
+msgstr ""
 
 msgid ""
-"LOAD\n"
-"GAME"
+"TOWNS/\n"
+"CASTLES"
 msgstr ""
-"ЗАГРУ-\n"
-"ЗІЦЬ"
-
-msgid "INFO"
-msgstr "ДАВЕДКА"
-
-msgid "QUIT"
-msgstr ""
-"ЗАВЯР-\n"
-"ШЫЦЬ"
-
-#, fuzzy
-msgid ""
-"NEW\n"
-"MAP"
-msgstr "НОВАЯ"
-
-#, fuzzy
-msgid ""
-"SAVE\n"
-"MAP"
-msgstr ""
-"ЗАХА-\n"
-"ВАЦЬ"
-
-#, fuzzy
-msgid ""
-"LOAD\n"
-"MAP"
-msgstr ""
-"ЗАГРУ-\n"
-"ЗІЦЬ"
 
 msgid "CANCEL"
 msgstr "НАЗАД"
@@ -99,46 +75,111 @@ msgstr "ТАК"
 msgid "NO"
 msgstr "НЕ"
 
-msgid "EXIT"
-msgstr "ВЫЙСЦІ"
-
-msgid "smallerButton|EXIT"
-msgstr ""
-
 msgid "DISMISS"
 msgstr ""
 
 msgid "UPGRADE"
 msgstr "ПАЛЕПШЫЦЬ"
 
+msgid "GIFT"
+msgstr "АДДАЦЬ"
+
 msgid "RESTART"
 msgstr "НАНОВА"
 
-msgid "HEROES"
+msgid "MAX"
+msgstr "МАКС"
+
+msgid "MIN"
+msgstr "МІН"
+
+msgid ""
+"D\n"
+"I\n"
+"S\n"
+"M\n"
+"I\n"
+"S\n"
+"S"
 msgstr ""
 
 msgid ""
-"TOWNS/\n"
-"CASTLES"
+"E\n"
+"X\n"
+"I\n"
+"T"
 msgstr ""
 
-msgid "S"
+msgid ""
+"C\n"
+"A\n"
+"M\n"
+"P\n"
+"A\n"
+"I\n"
+"G\n"
+"N"
 msgstr ""
 
-msgid "M"
+msgid ""
+"S\n"
+"T\n"
+"A\n"
+"N\n"
+"D\n"
+"A\n"
+"R\n"
+"D"
 msgstr ""
 
-msgid "L"
+#, fuzzy
+msgid ""
+"LOAD\n"
+"MAP"
 msgstr ""
+"ЗАГРУ-\n"
+"ЗІЦЬ"
 
-msgid "X-L"
+#, fuzzy
+msgid ""
+"NEW\n"
+"MAP"
+msgstr "НОВАЯ"
+
+#, fuzzy
+msgid ""
+"SAVE\n"
+"MAP"
 msgstr ""
+"ЗАХА-\n"
+"ВАЦЬ"
 
-msgid "ALL"
-msgstr "УСЕ"
+msgid ""
+"NEW\n"
+"GAME"
+msgstr "НОВАЯ"
 
-msgid "SELECT"
+msgid ""
+"LOAD\n"
+"GAME"
 msgstr ""
+"ЗАГРУ-\n"
+"ЗІЦЬ"
+
+msgid ""
+"SAVE\n"
+"GAME"
+msgstr ""
+"ЗАХА-\n"
+"ВАЦЬ"
+
+msgid "QUIT"
+msgstr ""
+"ЗАВЯР-\n"
+"ШЫЦЬ"
+
+msgid "INFO"
+msgstr "ДАВЕДКА"
 
 msgid ""
 "STANDARD\n"
@@ -146,6 +187,13 @@ msgid ""
 msgstr ""
 "ЗВЫЧАЙНАЯ\n"
 "ГУЛЬНЯ"
+
+msgid ""
+"BATTLE\n"
+"ONLY"
+msgstr ""
+"АСОБНЫ\n"
+"БОЙ"
 
 msgid ""
 "CAMPAIGN\n"
@@ -194,20 +242,11 @@ msgstr "5 ГУЛЬЦОЎ"
 msgid "6 PLAYERS"
 msgstr "6 ГУЛЬЦОЎ"
 
-msgid "GIFT"
-msgstr "АДДАЦЬ"
-
-msgid "MAX"
-msgstr "МАКС"
-
 msgid "DIFFICULTY"
 msgstr "ЦЯЖКАСЦЬ"
 
 msgid "VIEW INTRO"
 msgstr ""
-
-msgid "MIN"
-msgstr "МІН"
 
 msgid "RESET"
 msgstr ""
@@ -222,25 +261,14 @@ msgstr ""
 msgid "CASTLE"
 msgstr ""
 
-#, fuzzy
-msgid "RESTRICT"
-msgstr "НАНОВА"
-
 msgid ""
-"D\n"
-"I\n"
-"S\n"
-"M\n"
-"I\n"
-"S\n"
-"S"
+"AUTO\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
-"E\n"
-"X\n"
-"I\n"
-"T"
+"QUICK\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
@@ -250,47 +278,6 @@ msgid ""
 "R\n"
 "O\n"
 "L"
-msgstr ""
-
-msgid ""
-"C\n"
-"A\n"
-"M\n"
-"P\n"
-"A\n"
-"I\n"
-"G\n"
-"N"
-msgstr ""
-
-msgid ""
-"S\n"
-"T\n"
-"A\n"
-"N\n"
-"D\n"
-"A\n"
-"R\n"
-"D"
-msgstr ""
-
-msgid "RUMORS"
-msgstr ""
-
-msgid "EVENTS"
-msgstr ""
-
-msgid "LANGUAGE"
-msgstr ""
-
-msgid ""
-"AUTO\n"
-"COMBAT"
-msgstr ""
-
-msgid ""
-"QUICK\n"
-"COMBAT"
 msgstr ""
 
 msgid "Warrior"
@@ -2982,8 +2969,11 @@ msgstr ""
 msgid "You cannot select %{resource}!"
 msgstr ""
 
-msgid "Select count %{resource}:"
+#, fuzzy
+msgid "Set %{resource-type} Count"
 msgstr ""
+"Некалькі\n"
+"%{monster}"
 
 msgid "Select Recipients"
 msgstr ""
@@ -3049,15 +3039,6 @@ msgstr ""
 msgid "Hot Keys:"
 msgstr "Гарачыя клавішы:"
 
-msgid "Evil"
-msgstr ""
-
-msgid "Good"
-msgstr ""
-
-msgid "Interface Type"
-msgstr ""
-
 msgid "Hide"
 msgstr ""
 
@@ -3067,27 +3048,16 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-msgid "Slow"
-msgstr ""
-
-#, fuzzy
-msgid "Normal"
-msgstr "Звычайная"
-
-msgid "Fast"
-msgstr ""
-
-#, fuzzy
-msgid "Very Fast"
-msgstr "Шпаркая"
-
-msgid "Scroll Speed"
+msgid "Interface Type"
 msgstr ""
 
 msgid "Toggle the type of interface you want to use."
 msgstr ""
 
 msgid "Toggle interface visibility."
+msgstr ""
+
+msgid "Scroll Speed"
 msgstr ""
 
 msgid "Sets the speed at which you scroll the window."
@@ -3759,6 +3729,10 @@ msgstr "Воблачны замак"
 msgid "Default Buildings"
 msgstr "Хобіты"
 
+#, fuzzy
+msgid "RESTRICT"
+msgstr "НАНОВА"
+
 msgid "Default Army"
 msgstr ""
 
@@ -3880,19 +3854,51 @@ msgstr ""
 msgid "Delete an existing event."
 msgstr ""
 
+#, fuzzy
+msgid "Effects:"
+msgstr "Эфекты"
+
+#, fuzzy
+msgid "Conditions:"
+msgstr "Умова паразы"
+
 msgid "Cancel event after first visit"
+msgstr ""
+
+msgid "Computer colors allowed to get the event:"
+msgstr ""
+
+msgid "Set Experience value"
 msgstr ""
 
 msgid "Artifact"
 msgstr ""
 
-msgid "No artifact will be given as a reward."
+msgid "No artifact will be given by the event."
 msgstr ""
 
 msgid "Delete Artifact"
 msgstr ""
 
-msgid "Delete an artifact from the reward."
+msgid "Delete an artifact from the event."
+msgstr ""
+
+msgid "No Secondary Skill will be given by the event."
+msgstr ""
+
+msgid "Secondary Skill"
+msgstr ""
+
+msgid "Delete Secondary Skill"
+msgstr ""
+
+msgid "Delete the Secondary Skill from the event."
+msgstr ""
+
+msgid "No resources will be part of this event."
+msgstr ""
+
+msgid "These resources will be a part of the event."
 msgstr ""
 
 msgid ""
@@ -3936,6 +3942,52 @@ msgid ""
 "current map will be lost.)"
 msgstr ""
 
+msgid ""
+"MAIN\n"
+"MENU"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"START\n"
+"MAP"
+msgstr "НАНОВА"
+
+msgid "Main Menu"
+msgstr ""
+
+msgid ""
+"Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
+"current map will be lost.)"
+msgstr ""
+
+msgid "Unsaved Changes"
+msgstr ""
+
+msgid ""
+"This map has either terrain changes, undo history or has not yet been saved "
+"to a file.\n"
+"\n"
+"Do you wish to save the current map?"
+msgstr ""
+
+msgid "Unplayable Map"
+msgstr ""
+
+msgid ""
+"This map is not playable. You need at least one human player for the map to "
+"be playable."
+msgstr ""
+
+#, fuzzy
+msgid "Start Map"
+msgstr "Вялікія мапы"
+
+msgid ""
+"Do you wish to leave the Editor and start the map? (Any unsaved changes to "
+"the current map will be lost.)"
+msgstr ""
+
 msgid "Create a new map from scratch."
 msgstr ""
 
@@ -3961,14 +4013,15 @@ msgstr "Назва абранай мапы."
 msgid "Quit out of the map editor."
 msgstr ""
 
-msgid "Input %{object} text"
+#, fuzzy
+msgid "Return to the game's Main Menu."
+msgstr "Пстрыкні, каб вярнуцца ў галоўнае меню."
+
+msgid "Leave the Editor and play the map in the Standard Game mode."
 msgstr ""
 
-#, fuzzy
-msgid "Set %{resource-type} Count"
+msgid "Input %{object} text"
 msgstr ""
-"Некалькі\n"
-"%{monster}"
 
 msgid "Set Random Ultimate Artifact Radius"
 msgstr ""
@@ -3977,6 +4030,9 @@ msgid "%{object} has no properties to change."
 msgstr ""
 
 msgid "This artifact"
+msgstr ""
+
+msgid "The total number of obelisks is %{count}."
 msgstr ""
 
 msgid "Roads"
@@ -4423,6 +4479,15 @@ msgstr "Складанасць мапы:"
 msgid "Map Description"
 msgstr "Апісанне"
 
+msgid "RUMORS"
+msgstr ""
+
+msgid "EVENTS"
+msgstr ""
+
+msgid "LANGUAGE"
+msgstr ""
+
 msgid ""
 "The entered map description exceeds the maximum allowed 5 rows. It will be "
 "shortened to fit the map description field."
@@ -4604,6 +4669,12 @@ msgstr ""
 msgid "Delete an existing answer for the question."
 msgstr ""
 
+msgid "No artifact will be given as a reward."
+msgstr ""
+
+msgid "Delete an artifact from the reward."
+msgstr ""
+
 msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr ""
 
@@ -4627,6 +4698,10 @@ msgstr ""
 
 msgid "Easy"
 msgstr ""
+
+#, fuzzy
+msgid "Normal"
+msgstr "Звычайная"
 
 msgid "Hard"
 msgstr "Цяжкая"
@@ -5257,9 +5332,6 @@ msgid "Default Actions"
 msgstr ""
 
 msgid "Global Actions"
-msgstr ""
-
-msgid "Main Menu"
 msgstr ""
 
 msgid "World Map"
@@ -5986,6 +6058,9 @@ msgid ""
 "skill"
 msgstr "Абарона"
 
+msgid "The available values range from %{min} to %{max}."
+msgstr ""
+
 msgid "Keyboard|123"
 msgstr ""
 
@@ -6075,6 +6150,25 @@ msgstr ""
 #, fuzzy
 msgid "Vietnamese"
 msgstr "Праглядзець %{name}"
+
+msgid "Slow"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+#, fuzzy
+msgid "Very Fast"
+msgstr "Шпаркая"
+
+msgid "Dynamic"
+msgstr ""
+
+msgid "Good"
+msgstr ""
+
+msgid "Evil"
+msgstr ""
 
 msgid ", FPS: "
 msgstr ""
@@ -7361,9 +7455,6 @@ msgstr ""
 msgid "Change Experience value. Right-click to reset to default value."
 msgstr ""
 
-msgid "Set Experience value"
-msgstr ""
-
 msgid "View Experience Info"
 msgstr ""
 
@@ -7467,6 +7558,9 @@ msgstr ""
 msgid ""
 "Current experience %{exp1}.\n"
 " Next level %{exp2}."
+msgstr ""
+
+msgid "million|M"
 msgstr ""
 
 msgid "Level %{level}"

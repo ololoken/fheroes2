@@ -146,7 +146,7 @@ namespace
     }
 }
 
-MapObjectSimple * MapObjects::get( const uint32_t uid ) const
+MapBaseObject * MapObjects::get( const uint32_t uid ) const
 {
     if ( const auto iter = _objects.find( uid ); iter != _objects.end() ) {
         return iter->second.get();
@@ -155,9 +155,9 @@ MapObjectSimple * MapObjects::get( const uint32_t uid ) const
     return nullptr;
 }
 
-std::list<MapObjectSimple *> MapObjects::get( const fheroes2::Point & pos ) const
+std::list<MapBaseObject *> MapObjects::get( const fheroes2::Point & pos ) const
 {
-    std::list<MapObjectSimple *> result;
+    std::list<MapBaseObject *> result;
 
     for ( const auto & [dummy, obj] : _objects ) {
         assert( obj );
@@ -388,7 +388,7 @@ void World::generateBattleOnlyMap()
         vec_tiles[i] = {};
 
         vec_tiles[i].setIndex( static_cast<int32_t>( i ) );
-        vec_tiles[i].setTerrain( Maps::Ground::getTerrainStartImageIndex( groundType ), false, false );
+        vec_tiles[i].setTerrain( Maps::Ground::getTerrainStartImageIndex( groundType ), 0 );
     }
 }
 
@@ -424,7 +424,7 @@ void World::generateForEditor( const int32_t size )
         vec_tiles[i].setIndex( static_cast<int32_t>( i ) );
 
         const uint8_t terrainFlag = static_cast<uint8_t>( Rand::Get( 0, 3 ) );
-        vec_tiles[i].setTerrain( static_cast<uint16_t>( Rand::Get( 16, 19 ) ), terrainFlag & 1, terrainFlag & 2 );
+        vec_tiles[i].setTerrain( static_cast<uint16_t>( Rand::Get( 16, 19 ) ), terrainFlag );
     }
 }
 
@@ -531,10 +531,6 @@ void World::NewDay()
     // first the routine of the new month
     if ( BeginMonth() ) {
         NewMonth();
-
-        vec_kingdoms.NewMonth();
-        vec_castles.NewMonth();
-        vec_heroes.NewMonth();
     }
 
     // then the routine of the new week
@@ -606,7 +602,7 @@ void World::MonthOfMonstersAction( const Monster & mons )
 
     std::set<int32_t> excludeTiles;
 
-    std::mt19937 seededGen( _seed );
+    std::mt19937 seededGen( _seed + month );
 
     for ( const Maps::Tile & tile : vec_tiles ) {
         if ( tile.isWater() ) {
@@ -1033,7 +1029,7 @@ void World::ActionForMagellanMaps( int color )
 
 MapEvent * World::GetMapEvent( const fheroes2::Point & pos )
 {
-    std::list<MapObjectSimple *> res = map_objects.get( pos );
+    std::list<MapBaseObject *> res = map_objects.get( pos );
     if ( res.empty() ) {
         return nullptr;
     }
@@ -1041,12 +1037,12 @@ MapEvent * World::GetMapEvent( const fheroes2::Point & pos )
     return dynamic_cast<MapEvent *>( res.front() );
 }
 
-MapObjectSimple * World::GetMapObject( uint32_t uid )
+MapBaseObject * World::GetMapObject( uint32_t uid )
 {
     return uid ? map_objects.get( uid ) : nullptr;
 }
 
-void World::RemoveMapObject( const MapObjectSimple * obj )
+void World::RemoveMapObject( const MapBaseObject * obj )
 {
     if ( obj )
         map_objects.remove( obj->GetUID() );
@@ -1450,7 +1446,7 @@ IStreamBase & operator>>( IStreamBase & stream, CapturedObject & obj )
 
 OStreamBase & operator<<( OStreamBase & stream, const MapObjects & objs )
 {
-    const std::map<uint32_t, std::unique_ptr<MapObjectSimple>> & objectsRef = objs._objects;
+    const std::map<uint32_t, std::unique_ptr<MapBaseObject>> & objectsRef = objs._objects;
 
     stream.put32( static_cast<uint32_t>( objectsRef.size() ) );
 
@@ -1484,7 +1480,7 @@ OStreamBase & operator<<( OStreamBase & stream, const MapObjects & objs )
 
 IStreamBase & operator>>( IStreamBase & stream, MapObjects & objs )
 {
-    std::map<uint32_t, std::unique_ptr<MapObjectSimple>> & objectsRef = objs._objects;
+    std::map<uint32_t, std::unique_ptr<MapBaseObject>> & objectsRef = objs._objects;
 
     const uint32_t size = stream.get32();
 
@@ -1506,7 +1502,7 @@ IStreamBase & operator>>( IStreamBase & stream, MapObjects & objs )
             stream >> type;
         }
 
-        std::unique_ptr<MapObjectSimple> obj = [&stream, type]() -> std::unique_ptr<MapObjectSimple> {
+        std::unique_ptr<MapBaseObject> obj = [&stream, type]() -> std::unique_ptr<MapBaseObject> {
             switch ( type ) {
             case MP2::OBJ_EVENT: {
                 auto ptr = std::make_unique<MapEvent>();
@@ -1589,8 +1585,8 @@ IStreamBase & operator>>( IStreamBase & stream, World & w )
         ++w.heroIdAsLossCondition;
     }
 
-    static_assert( LAST_SUPPORTED_FORMAT_VERSION < FORMAT_VERSION_1106_RELEASE, "Remove the logic below." );
-    if ( Game::GetVersionOfCurrentSaveFile() < FORMAT_VERSION_1106_RELEASE ) {
+    static_assert( LAST_SUPPORTED_FORMAT_VERSION < FORMAT_VERSION_PPRE1_1106_RELEASE, "Remove the logic below." );
+    if ( Game::GetVersionOfCurrentSaveFile() < FORMAT_VERSION_PPRE1_1106_RELEASE ) {
         // Update flags for Mine and Lighthouse captured objects.
         for ( const auto & [tileIndex, object] : w.map_captureobj ) {
             if ( object.GetColor() == Color::NONE ) {

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 12:11+0000\n"
+"POT-Creation-Date: 2025-02-22 01:59+0000\n"
 "PO-Revision-Date: 2022-09-23 16:14+0200\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
@@ -20,45 +20,36 @@ msgstr ""
 "X-Launchpad-Export-Date: 2014-12-05 05:56+0000\n"
 "X-Generator: Poedit 3.1.1\n"
 
-msgid ""
-"BATTLE\n"
-"ONLY"
+msgid "SELECT"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "M"
+msgstr ""
+
+msgid "L"
+msgstr ""
+
+msgid "X-L"
+msgstr ""
+
+msgid "ALL"
+msgstr ""
+
+msgid "EXIT"
+msgstr ""
+
+msgid "smallerButton|EXIT"
+msgstr ""
+
+msgid "HEROES"
 msgstr ""
 
 msgid ""
-"NEW\n"
-"GAME"
-msgstr ""
-
-msgid ""
-"SAVE\n"
-"GAME"
-msgstr ""
-
-msgid ""
-"LOAD\n"
-"GAME"
-msgstr ""
-
-msgid "INFO"
-msgstr ""
-
-msgid "QUIT"
-msgstr ""
-
-msgid ""
-"NEW\n"
-"MAP"
-msgstr ""
-
-msgid ""
-"SAVE\n"
-"MAP"
-msgstr ""
-
-msgid ""
-"LOAD\n"
-"MAP"
+"TOWNS/\n"
+"CASTLES"
 msgstr ""
 
 msgid "CANCEL"
@@ -85,50 +76,107 @@ msgstr ""
 msgid "NO"
 msgstr ""
 
-msgid "EXIT"
-msgstr ""
-
-msgid "smallerButton|EXIT"
-msgstr ""
-
 msgid "DISMISS"
 msgstr ""
 
 msgid "UPGRADE"
 msgstr ""
 
+msgid "GIFT"
+msgstr ""
+
 msgid "RESTART"
 msgstr ""
 
-msgid "HEROES"
+msgid "MAX"
+msgstr ""
+
+msgid "MIN"
 msgstr ""
 
 msgid ""
-"TOWNS/\n"
-"CASTLES"
+"D\n"
+"I\n"
+"S\n"
+"M\n"
+"I\n"
+"S\n"
+"S"
 msgstr ""
 
-msgid "S"
+msgid ""
+"E\n"
+"X\n"
+"I\n"
+"T"
 msgstr ""
 
-msgid "M"
+msgid ""
+"C\n"
+"A\n"
+"M\n"
+"P\n"
+"A\n"
+"I\n"
+"G\n"
+"N"
 msgstr ""
 
-msgid "L"
+msgid ""
+"S\n"
+"T\n"
+"A\n"
+"N\n"
+"D\n"
+"A\n"
+"R\n"
+"D"
 msgstr ""
 
-msgid "X-L"
+msgid ""
+"LOAD\n"
+"MAP"
 msgstr ""
 
-msgid "ALL"
+msgid ""
+"NEW\n"
+"MAP"
 msgstr ""
 
-msgid "SELECT"
+msgid ""
+"SAVE\n"
+"MAP"
+msgstr ""
+
+msgid ""
+"NEW\n"
+"GAME"
+msgstr ""
+
+msgid ""
+"LOAD\n"
+"GAME"
+msgstr ""
+
+msgid ""
+"SAVE\n"
+"GAME"
+msgstr ""
+
+msgid "QUIT"
+msgstr ""
+
+msgid "INFO"
 msgstr ""
 
 msgid ""
 "STANDARD\n"
 "GAME"
+msgstr ""
+
+msgid ""
+"BATTLE\n"
+"ONLY"
 msgstr ""
 
 msgid ""
@@ -173,19 +221,10 @@ msgstr ""
 msgid "6 PLAYERS"
 msgstr ""
 
-msgid "GIFT"
-msgstr ""
-
-msgid "MAX"
-msgstr ""
-
 msgid "DIFFICULTY"
 msgstr ""
 
 msgid "VIEW INTRO"
-msgstr ""
-
-msgid "MIN"
 msgstr ""
 
 msgid "RESET"
@@ -200,24 +239,14 @@ msgstr ""
 msgid "CASTLE"
 msgstr ""
 
-msgid "RESTRICT"
+msgid ""
+"AUTO\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
-"D\n"
-"I\n"
-"S\n"
-"M\n"
-"I\n"
-"S\n"
-"S"
-msgstr ""
-
-msgid ""
-"E\n"
-"X\n"
-"I\n"
-"T"
+"QUICK\n"
+"COMBAT"
 msgstr ""
 
 msgid ""
@@ -227,47 +256,6 @@ msgid ""
 "R\n"
 "O\n"
 "L"
-msgstr ""
-
-msgid ""
-"C\n"
-"A\n"
-"M\n"
-"P\n"
-"A\n"
-"I\n"
-"G\n"
-"N"
-msgstr ""
-
-msgid ""
-"S\n"
-"T\n"
-"A\n"
-"N\n"
-"D\n"
-"A\n"
-"R\n"
-"D"
-msgstr ""
-
-msgid "RUMORS"
-msgstr ""
-
-msgid "EVENTS"
-msgstr ""
-
-msgid "LANGUAGE"
-msgstr ""
-
-msgid ""
-"AUTO\n"
-"COMBAT"
-msgstr ""
-
-msgid ""
-"QUICK\n"
-"COMBAT"
 msgstr ""
 
 msgid "Warrior"
@@ -2980,8 +2968,9 @@ msgstr ""
 msgid "You cannot select %{resource}!"
 msgstr ""
 
-msgid "Select count %{resource}:"
-msgstr ""
+#, fuzzy
+msgid "Set %{resource-type} Count"
+msgstr "Pulti %{monster}"
 
 msgid "Select Recipients"
 msgstr ""
@@ -3046,15 +3035,6 @@ msgstr ""
 msgid "Hot Keys:"
 msgstr ""
 
-msgid "Evil"
-msgstr ""
-
-msgid "Good"
-msgstr ""
-
-msgid "Interface Type"
-msgstr ""
-
 msgid "Hide"
 msgstr ""
 
@@ -3064,25 +3044,16 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-msgid "Slow"
-msgstr ""
-
-msgid "Normal"
-msgstr ""
-
-msgid "Fast"
-msgstr ""
-
-msgid "Very Fast"
-msgstr ""
-
-msgid "Scroll Speed"
+msgid "Interface Type"
 msgstr ""
 
 msgid "Toggle the type of interface you want to use."
 msgstr ""
 
 msgid "Toggle interface visibility."
+msgstr ""
+
+msgid "Scroll Speed"
 msgstr ""
 
 msgid "Sets the speed at which you scroll the window."
@@ -3749,6 +3720,9 @@ msgstr "Dangaus pilis"
 msgid "Default Buildings"
 msgstr "Gynybos įgūdis"
 
+msgid "RESTRICT"
+msgstr ""
+
 msgid "Default Army"
 msgstr ""
 
@@ -3871,20 +3845,52 @@ msgstr ""
 msgid "Delete an existing event."
 msgstr ""
 
+msgid "Effects:"
+msgstr ""
+
+#, fuzzy
+msgid "Conditions:"
+msgstr "Pralaimėjimo sąlygos"
+
 msgid "Cancel event after first visit"
+msgstr ""
+
+msgid "Computer colors allowed to get the event:"
+msgstr ""
+
+msgid "Set Experience value"
 msgstr ""
 
 msgid "Artifact"
 msgstr "Magiškas artefaktas"
 
-msgid "No artifact will be given as a reward."
+msgid "No artifact will be given by the event."
 msgstr ""
 
 #, fuzzy
 msgid "Delete Artifact"
 msgstr "Magiškas artefaktas"
 
-msgid "Delete an artifact from the reward."
+msgid "Delete an artifact from the event."
+msgstr ""
+
+msgid "No Secondary Skill will be given by the event."
+msgstr ""
+
+#, fuzzy
+msgid "Secondary Skill"
+msgstr "Gynybos įgūdis"
+
+msgid "Delete Secondary Skill"
+msgstr ""
+
+msgid "Delete the Secondary Skill from the event."
+msgstr ""
+
+msgid "No resources will be part of this event."
+msgstr ""
+
+msgid "These resources will be a part of the event."
 msgstr ""
 
 msgid ""
@@ -3937,6 +3943,57 @@ msgstr ""
 "Ar tikrai norite įkelti anksčiau įrašytą žaidimą? (Dabartinis žaidimas bus "
 "prarastas, jei neįrašėte)"
 
+msgid ""
+"MAIN\n"
+"MENU"
+msgstr ""
+
+msgid ""
+"START\n"
+"MAP"
+msgstr ""
+
+msgid "Main Menu"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
+"current map will be lost.)"
+msgstr ""
+"Ar tikrai norite įkelti anksčiau įrašytą žaidimą? (Dabartinis žaidimas bus "
+"prarastas, jei neįrašėte)"
+
+msgid "Unsaved Changes"
+msgstr ""
+
+msgid ""
+"This map has either terrain changes, undo history or has not yet been saved "
+"to a file.\n"
+"\n"
+"Do you wish to save the current map?"
+msgstr ""
+
+msgid "Unplayable Map"
+msgstr ""
+
+msgid ""
+"This map is not playable. You need at least one human player for the map to "
+"be playable."
+msgstr ""
+
+#, fuzzy
+msgid "Start Map"
+msgstr "Įkelti žaidimą"
+
+#, fuzzy
+msgid ""
+"Do you wish to leave the Editor and start the map? (Any unsaved changes to "
+"the current map will be lost.)"
+msgstr ""
+"Ar tikrai norite įkelti anksčiau įrašytą žaidimą? (Dabartinis žaidimas bus "
+"prarastas, jei neįrašėte)"
+
 msgid "Create a new map from scratch."
 msgstr ""
 
@@ -3960,12 +4017,15 @@ msgstr ""
 msgid "Quit out of the map editor."
 msgstr ""
 
-msgid "Input %{object} text"
+#, fuzzy
+msgid "Return to the game's Main Menu."
+msgstr "Grįžti į mūšį."
+
+msgid "Leave the Editor and play the map in the Standard Game mode."
 msgstr ""
 
-#, fuzzy
-msgid "Set %{resource-type} Count"
-msgstr "Pulti %{monster}"
+msgid "Input %{object} text"
+msgstr ""
 
 #, fuzzy
 msgid "Set Random Ultimate Artifact Radius"
@@ -3977,6 +4037,9 @@ msgstr ""
 #, fuzzy
 msgid "This artifact"
 msgstr " su vienu artefaktu"
+
+msgid "The total number of obelisks is %{count}."
+msgstr ""
 
 msgid "Roads"
 msgstr ""
@@ -4420,6 +4483,15 @@ msgstr ""
 msgid "Map Description"
 msgstr ""
 
+msgid "RUMORS"
+msgstr ""
+
+msgid "EVENTS"
+msgstr ""
+
+msgid "LANGUAGE"
+msgstr ""
+
 msgid ""
 "The entered map description exceeds the maximum allowed 5 rows. It will be "
 "shortened to fit the map description field."
@@ -4597,6 +4669,12 @@ msgstr ""
 msgid "Delete an existing answer for the question."
 msgstr ""
 
+msgid "No artifact will be given as a reward."
+msgstr ""
+
+msgid "Delete an artifact from the reward."
+msgstr ""
+
 msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr ""
 
@@ -4619,6 +4697,9 @@ msgid "and more..."
 msgstr ""
 
 msgid "Easy"
+msgstr ""
+
+msgid "Normal"
 msgstr ""
 
 msgid "Hard"
@@ -5256,9 +5337,6 @@ msgid "Default Actions"
 msgstr ""
 
 msgid "Global Actions"
-msgstr ""
-
-msgid "Main Menu"
 msgstr ""
 
 msgid "World Map"
@@ -5980,6 +6058,9 @@ msgid ""
 "skill"
 msgstr "Gynybos įgūdis"
 
+msgid "The available values range from %{min} to %{max}."
+msgstr ""
+
 msgid "Keyboard|123"
 msgstr ""
 
@@ -6069,6 +6150,24 @@ msgstr ""
 #, fuzzy
 msgid "Vietnamese"
 msgstr "Žiūrėti %{name}"
+
+msgid "Slow"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+msgid "Very Fast"
+msgstr ""
+
+msgid "Dynamic"
+msgstr ""
+
+msgid "Good"
+msgstr ""
+
+msgid "Evil"
+msgstr ""
 
 msgid ", FPS: "
 msgstr ""
@@ -7373,9 +7472,6 @@ msgstr ""
 msgid "Change Experience value. Right-click to reset to default value."
 msgstr ""
 
-msgid "Set Experience value"
-msgstr ""
-
 msgid "View Experience Info"
 msgstr ""
 
@@ -7481,6 +7577,9 @@ msgstr ""
 msgid ""
 "Current experience %{exp1}.\n"
 " Next level %{exp2}."
+msgstr ""
+
+msgid "million|M"
 msgstr ""
 
 msgid "Level %{level}"
